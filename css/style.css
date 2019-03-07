@@ -1,0 +1,987 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*home-page design start here*/
+.container{
+	width: 100%;
+	height: 662px;
+	background-image: url("../images/bg1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding-top: 40px;
+	background-color: 
+}
+
+.container .header .title{
+	width: 100%;
+	height: auto;
+	background-color: #00B2EE;
+	padding: 30px;
+}
+
+.container .header .title h1{
+	margin: 0;
+	text-align: center;
+	color: #fff;
+}
+
+.container .login .box{
+	width: 21%;
+	height: auto;
+	background-color: #fff;
+	margin-top: 25px;
+	padding: 10px;
+	margin-left: 0;
+	box-shadow: 2px 2px 2px #00B2EE;
+}
+
+.container .login .box h1{
+	margin: 0 0 0 130px;
+	color: #00B2EE;
+}
+
+.container .staff-section{
+	width: 50%;
+	min-height: 300px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.container .staff-section .section{
+	width: 27%;
+	height: 300px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.container .staff-section .section a{
+	text-decoration: none;
+}
+
+.container .staff-section .section .box{
+	width: 125px;
+	height: 125px;
+	margin-left: 25px;
+	border-radius: 100%;
+	box-shadow: 5px 10px 10px #5E5E5E;
+	margin-top: 30px;
+	background-color: #00B2EE;
+}
+
+.container .staff-section .section .box .fa{
+	margin-top: 20px;
+    margin-left: 30px;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	color: #fff;
+}
+
+.container .staff-section .section h1{
+	background-color: #fff;
+	color: #00B2EE;
+	text-align: center;
+	width: 80%;
+	height: auto;
+	margin: 40px auto;
+	padding: 5px 0;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #00B2EE;
+}
+
+.container .staff-section .section h1:hover{
+	background-color: #00B2EE;
+	color: #fff;
+	text-align: center;
+	width: 80%;
+	height: auto;
+	margin: 40px auto;
+	padding: 5px 0;
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px #5E5E5E;
+}
+
+/*home-page design ends here*/
+
+
+
+/*Admin login design starts here
+
+/*Error message design*/
+.error{
+	width: 60%;
+	height: auto;
+	margin: 0px auto;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: left;
+	background: #f2dede;
+	color: #a94442;
+	border: 1px solid #f2dede;
+	font-size: 20px;
+	height:60px;
+}
+.error p{
+	margin: 0;
+	margin-bottom:0;
+}
+/*Error message design ends here*/
+
+
+.wrapper .header .title{
+	width: 100%;
+	height: auto;
+	background-color: #00B2EE;
+	padding: 30px;	
+}
+
+.wrapper{
+	width: 100%;
+	height: 662px;
+	background-image: url("../images/ipad.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding-top: 40px;
+}
+
+.wrapper .header .title h1{
+	margin: 0;
+	text-align: center;
+	color: #fff;
+}
+
+.wrapper .box{
+	width: 50px;
+	height: 50px;
+	margin-left: 25px;
+	border-radius: 100%;
+	margin-top: 30px;
+	background-color: #00B2EE;
+}
+
+.wrapper .fa{
+	margin-top: 13px;
+    margin-left: 13px;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	color: #fff;
+}
+
+.wrapper .login{
+	width: 30%;
+	min-height: 365px;
+	margin: auto;
+	background-color: #eee;
+	margin-top: 10px;
+	padding-top: 20px;
+	border-radius: 25px;
+}
+
+.wrapper .login h1{
+	text-align: center;
+	margin-top: 0;
+	color: #00B2EE;
+}
+
+.wrapper .login p.p{
+	text-align: center;
+	color: #00B2EE;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.wrapper .login .input{
+	margin-left: 50px;
+	margin-bottom: 15px;
+}
+
+.wrapper .login .input input{
+	margin-left: 25px;
+	height: 25px;
+	/*border-radius: 5px;*/
+	border: none;
+	border-bottom: 2px solid #00B2EE;
+}
+
+.wrapper .login .submit button{
+	background-color: #00B2EE;
+	color: #fff;
+	padding: 5px 20px;
+	font-size: 20px;
+	margin-left: 47%;
+	margin-top: 7px;
+	cursor: pointer;
+	width: 100px;
+	text-align: center;
+	border-radius: 10px; 
+	box-shadow: 4px 4px 4px #5E5E5E;
+}
+
+.wrapper .login .submit a{
+	text-decoration: none;
+}
+
+.wrapper .login .fa{
+	color: #000;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+/*Admin login design ends here*/
+
+
+
+/*Admin portal design starts here*/
+.content{
+	width: 100%;
+	height: 662px;
+	background-color: #eee;
+	margin: 0;
+	padding-top: 20px;
+}
+
+.content .header{
+	width: 90%;
+	height: 80px;
+	background-color: #00B2EE;
+	margin-top: 35px;
+	margin-left: 10%;
+	position: absolute;
+	padding-left: 30px;
+
+}
+
+.content .box{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	background-color: #069DC8;
+	position: relative;
+	margin-left: 25px;
+}
+
+.content .box .fa{
+	float: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	color: #fff;
+	margin-top: 20px;
+    margin-left: 40px;
+}
+
+.content .header h1{
+	float: left;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 30px;
+	text-transform: uppercase;
+}
+
+.content .header h2{
+	float: right;
+	margin-top: 22px;
+	background-color: #fff;
+	color:  #00B2EE;
+	padding: 3px 20px;
+	margin-right: 40px;
+	border-radius: 25px;
+}
+
+
+.content .left{
+	float: left;
+	width: 300px;
+	height: 360px;
+	background-color: #00B2EE;
+	color: #fff;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.content .left h1{
+	text-align: center;
+	margin-top: 130px;
+}
+
+.content .right{
+	float: right;
+	width: 650px;
+	height: 360px;
+    margin-right: 180px;
+    margin-top: 60px;
+}
+
+.content .right .up{
+	width: 100%;
+	height: 70px;
+	background-color: #fff;
+	color: #00B2EE;
+	margin-bottom: 45px;
+    padding-top: 10px;
+}
+
+.content .right .up a{
+	text-decoration: none;
+}
+
+.content .right .up h1{
+	text-align: center;
+	margin-top: 0;
+    color: #00B2EE;
+}
+
+.content .right .down .details{
+	width: 42%;
+	height: 245px;
+	background-color: #fff;
+	color: #fff;
+	border-radius: 15px;
+	box-shadow: 2px 3px 3px #00B2EE;
+}
+
+.content .right .down h1:hover{
+	background-color: #069DC8;
+	color: #fff;
+	width: 70%;
+	margin: 21.44px auto;
+	border-radius: 15px;
+}
+
+.content .right .down h1{
+	text-align: center;
+	color: #00B2EE;
+	width: 70%;
+	margin: 21.44px auto;
+}
+
+.content .right .down .details .fa{
+	font-weight: normal;
+	font-style: normal;
+	font-size: 150px;
+	color: #069DC8;
+	margin-left: 70px;
+}
+
+.content .right .down .details.doctor{
+	float: left;
+	margin-right: 5px;
+}
+
+.content .right .down .details.nurse{
+	float: right;
+}
+
+/*Admin portal design ends here*/
+
+
+/*adding doctors design start here*/
+.main{
+	width: 100%;
+	height: 735px;
+	background-color: #eee;
+	margin: 0;
+}
+
+.main .nav{
+	width: 100%;
+	height: 25px;
+	border-bottom: 1px solid #eee;
+    background-color: #eee;
+    box-shadow: 0 2px 2px #a6a6a6;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+.main .nav ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.main .nav ul li{
+	float: left;
+	list-style: none;
+	border: 1px solid #000;
+	padding: 1px 10px;
+	border-bottom-style: none;
+	border-top-left-radius: 10px;
+}
+
+.main .nav ul li.current.right{
+	margin-right: 10px;
+}
+
+.main .nav ul li a{
+	color: #000;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.main .nav ul li.current{
+	border-bottom: none;
+	background-color: #CCDBEF;
+}
+
+.main .header{
+	width: 90%;
+	height: 70px;
+	background-color: #00B2EE;
+	margin-top: 35px;
+	margin-left: 10%;
+	position: absolute;
+	padding-left: 30px;
+
+}
+
+.main .doc{
+	width: 140px;
+	height: 140px;
+	border-radius: 100%;
+	background-color: #069DC8;
+	position: relative;
+	margin-left: 25px;
+}
+
+.main .doc .fa{
+	float: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 90px;
+	color: #fff;
+	margin-top: 20px;
+    margin-left: 35px;
+}
+
+.main .header h1{
+	float: left;
+	color: #fff;
+	margin-top: 18px;
+	margin-left: 30px;
+}
+
+.main .header .home{
+	margin-top: 10px;
+	float: right;
+}
+
+.main .header .home h2{
+	margin-top: 0;
+	font-size: 20px;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.main .header .home .fa{
+	font-weight: normal;
+	font-style: normal;
+	font-size: 30px;
+	color: #fff;
+	margin-left: 15px;
+}
+
+.main .header .out{
+	margin-top: 10px;
+	float: right;
+}
+
+.main .header .out h2{
+	margin-top: 0;
+	font-size: 20px;
+	color: #fff;
+	margin-right: 40px;
+}
+
+.main .header .out .fa{
+	font-weight: normal;
+	font-style: normal;
+	font-size: 30px;
+	color: #fff;
+	margin-left: 15px;
+}
+
+.main .header a{
+	text-decoration: none;
+}
+
+.main .doc-form{
+	width: 85%;
+	height: 500px;
+	margin-left: 190px;
+}
+
+.main .doc-form form label{
+	color:  #00B2EE;
+	font-size: 22px;
+}
+
+.main .doc-form .form1{
+	float: left;
+	width: 60%;
+	height: 500px;
+}
+
+.main .doc-form .form2{
+	float: right;
+	width: 33%;
+	height: 500px;
+}
+
+.main .doc-form .form1 .lname{
+	float: right;
+}
+
+.main .doc-form .form1 .fname{
+	float: left;
+}
+
+.main .doc-form .form1 .age{
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.main .doc-form .form1 .spec{
+	float: right;
+	margin-top: 20px;
+}
+
+.main .doc-form .form1 .state{
+	float: left;
+}
+
+.main .doc-form .form1 .city{
+	float: right;
+}
+
+.main .doc-form .form1 .mstatus{
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.main .doc-form .form1 .num{
+	float: right;
+	margin-top: 20px;
+}
+
+.main .doc-form .form1 .date{
+	margin-top: 20px;
+}
+
+.main .doc-form .form1 div{
+	margin-bottom: 20px;
+	width: 40%;
+
+}
+
+.main .doc-form .form1 input{
+	width: 42%;
+	height: 30px;
+}
+
+.main .doc-form .form1 label{
+	width: 55%;
+	float: left;
+}
+
+.main .doc-form .form1 label.add{
+	width: 22%
+}
+
+.main .doc-form .form1 .address{
+	margin-right: 0;
+	width: 100%;
+}
+
+.main .doc-form .form1 textarea{
+	width: 77%;
+	height: 30px;
+	resize: none;
+
+}
+
+.main .doc-form .form1 select{
+	width: 40%;
+	height: 30px;
+}
+/*The design for adding doctor form one ends here*/
+
+
+
+/*The design for adding doctor form two starts here*/
+.main .doc-form .form2 .preview{
+	margin-left: 47%;
+	width: 200px;
+	height: 200px;
+}
+
+.main .doc-form .form2 label{
+	float: left;
+	width: 50%;
+}
+
+.main .doc-form .form2 input{
+	width: 45%;
+	height: 30px;
+}
+
+.main .doc-form .form2 div{
+	margin-bottom: 20px;
+	width: 70%;
+}
+
+.main .doc-form .form2 .uname{
+	margin-top: 20px;
+}
+
+.main .doc-form form input[type="submit"]{
+	width: 10%;
+	margin: 0;
+	margin-left: 5%;
+	margin-left: 67%;
+	margin-top: 17px;
+	background-color: #00B2EE;
+	color: #fff;
+	border-radius: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.main .doc-form form input[type="reset"]{
+	width: 10%;
+	margin: 0;
+	background-color: #00B2EE;
+	color: #fff;
+	border-radius: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+/*The design for doctor form two ends here*/
+
+
+/*The design of nurse portal starts here*/
+.body{
+	width: 100%;
+	height: 735px;
+	background-color: #eee;
+	background-image: url('../images/doctor5.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 40px;
+}
+
+.body h1{
+	margin-top: 0;
+	color: #069DC8;
+	text-align: center;
+}
+
+.body div{
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	box-shadow: 0 3px 3px #5E5E5E;
+}
+
+.body .nurse-portal{
+	width: 35%;
+	height: 70px;
+	background-color: #069DC8;
+	color: #fff;
+	padding-top: 13px;
+}
+
+.body .nurse-portal h1{
+	color: #FFF;
+}
+
+.body a{
+text-decoration: none;
+}
+
+.body .add-patient-detail{
+	width: 20%;
+	height: 50px;
+	background-color: #fff;
+	margin-left: 10%;
+	padding-top: 5px;
+}
+
+.body .view-patient{
+	width: 20%;
+	height: 50px;
+	background-color: #fff;
+	margin-left: 10%;
+	padding-top: 5px;
+}
+
+.body .search-patient{
+	width: 20%;
+	height: 50px;
+	background-color: #fff;
+	margin-left: 10%;
+	padding-top: 5px;
+}
+
+.body .appointment{
+	width: 20%;
+	height: 50px;
+	background-color: #fff;
+	margin-left: 10%;
+	padding-top: 5px;
+}
+
+.body .logout{
+	width: 10%;
+	color: #fff;
+	background-color: #069DC8;
+	padding: 3px 30px;
+	margin-left: 15%;
+}
+
+.body .logout a{
+	text-decoration: none;
+}
+
+.body .logout h2{
+	margin: 0;
+	background-color: #069DC8;
+	color: #fff;
+	text-align: center;
+
+}
+/*Nurse portal design ends here*/
+
+
+
+/*Adding Patient Design starts here*/
+.main.patient{
+	width: 100%;
+	height: 830px;
+}
+
+.doc .fa.fa-bed{
+	margin-left: 20px;
+}
+
+
+.doc-form.patient .form1 label.symp{
+	width: 22%;
+}
+
+.doc-form.patient .form1 #symp{
+	width: 100%;
+	height: 120px;
+	margin-top: 122px;
+
+	
+}
+
+.doc-form.patient .form1 textarea.desc{
+	width: 78%;
+	height: 125px;
+	resize: none;
+}
+
+.doc-form.patient .form2 #diagnosis{
+	width: 100%;
+	height: 150px;
+}
+
+.doc-form.patient .form2 .diagnosis{
+	width: 100%;
+	height: 150px;
+	resize: none;
+}
+
+.doc-form.patient .form2 .diagnos{
+	margin: 5% 0;
+}
+
+.doc-form.patient .send.patient input{
+	background-color: #00B2EE;
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-size: 15px;
+	height: 30px;
+    width: 30%;
+    margin: 30px 0 0 0;
+}
+
+/*Adding patients design ends here*/
+
+
+/*The design for search patient starts here*/
+.doc-form.patient.search{
+	height: 70px;
+}
+
+.doc-form.patient .form1{
+	height: 70px;
+}
+
+.main.search .line{
+	width: 100%;
+	border-bottom: 2px dashed #00B2EE;
+	margin-bottom: 30px;
+}
+
+.doc-form.patient .form1 .id.search{
+	float: left;
+}
+
+.doc-form.patient .form1 .search{
+	float: right;
+}
+
+.doc-form.patient .form1 .search button{
+	background-color: #00B2EE;
+	color: #fff;
+	text-align: center;
+	padding: 5px 15px;
+	font-size: 20px;
+}
+
+.main.search #table{
+	width: 95%;
+	height: 150px;
+	margin: auto;
+	/*border: 1px solid #000;*/
+	display: none;
+}
+
+.main.search #table table{
+	border-collapse: collapse;
+}
+
+.main.search #table table td{
+	background-color: #fff;
+}
+
+.main.search #table table th{
+	padding: 5px 28px;
+}
+/*Search patients design ends here*/
+
+/*View patients design starts here*/
+.main.search .line.view{
+	margin-top: 20px;
+}
+
+.main.search #table.table{
+	display: block;
+}
+
+/*Update patient record*/
+
+.doc-form.patient .form1 label.symps{
+	width: 22%;
+float:left;
+clear:both;
+}
+
+.doc-form.patient .form1 #symps{
+	width: 100%;
+	height: 125px;
+	margin: 0;
+	margin-top: 5px;
+}
+
+.doc-form.patient .form1 textarea#symp{
+margin-top:0;
+width: 78%;
+clear:both;
+	height: 125px;
+	resize: none;
+}
+
+/*The design of appointment starts here*/
+.doc.app .fa.fa-calendar{
+	margin-left: 27px;
+}
+
+.main.patient.app .app-form{
+	width: 60%;
+	height: 500px;
+	margin: auto;
+}
+
+.main.patient .line{
+	width: 100%;
+	border-bottom: 2px dashed #00B2EE;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+fieldset{
+	/*background-color: #00B2EE;*/
+	border: 6px solid #00B2EE;
+	margin: 20px auto ;
+	margin-top: 0;
+	width: 520px;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px #000;
+}
+
+legend{
+	font-size: 25px;
+}
+
+fieldset select{
+	width: 300px;
+	height: 25px;
+	border-radius: 7px;
+}
+
+.main.patient.app .creat{
+	width: 25%;
+	margin-left: 60%;
+}
+
+.main.patient.app{
+	height: 735px;
+}
+
+.main.patient .creat input[type="submit"]{
+	margin-right: 10px;
+}
+
+.main.patient .creat input{
+	background-color: #00B2EE;
+	color: #fff;
+	font-size: 18px;
+	padding: 2px 15px;
+	border-radius: 10px;
+	box-shadow: 0 2px 2px #000;
+	cursor: pointer;
+}
+
+
+
+
